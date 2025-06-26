@@ -9,7 +9,7 @@ import '../models/term.dart';
 class TrackService {
   // Use the same base URL as AuthService. Avoid direct dependency if possible in larger apps (e.g., use config).
   static const String _baseUrl =
-      'https://sustainable-involve-sorts-tucson.trycloudflare.com';
+      'https://conducted-technology-extends-header.trycloudflare.com';
 
   // Method to fetch all tracks
   static Future<List<Track>> getTracks({
