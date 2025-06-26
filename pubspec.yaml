@@ -46,6 +46,11 @@ dependencies:
   intl: ^0.20.2
   flutter_gen: ^5.10.0
 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  flutter_launcher_icons: ^0.14.1
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -92,14 +97,12 @@ flutter:
   #         weight: 700
   #
   # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/to/font-from-package
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  build_runner: ^2.4.6
-  flutter_launcher_icons: ^0.13.1
+# see https://flutter.dev/to/font-from-package
 
-flutter_icons:
-  android: true
+# Flutter Launcher Icons Configuration
+flutter_launcher_icons:
+  android: "ic_launcher"
   ios: true
-  image_path: "Assets/Images/Layer_3.png" # حط هنا مسار الأيقونة الجديدة
+  image_path: "Assets/Images/Flutter_Logo.png"
+  adaptive_icon_background: "#97B5FF"
+  adaptive_icon_foreground: "Assets/Images/Layer_3.png"
