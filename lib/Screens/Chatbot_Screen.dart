@@ -79,7 +79,7 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
     });
 
     const String apiUrl =
-        'https://sustainable-involve-sorts-tucson.trycloudflare.com/api/chatbot/';
+        'https://conducted-technology-extends-header.trycloudflare.com/api/chatbot/';
 
     try {
       final response = await http.post(
