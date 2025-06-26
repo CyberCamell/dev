@@ -102,4 +102,4 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: "Assets/Images/Layer_1.png" # حط هنا مسار الأيقونة الجديدة
+  image_path: "Assets/Images/Layer_2.png" # حط هنا مسار الأيقونة الجديدة
